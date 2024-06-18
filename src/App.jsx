@@ -10,7 +10,6 @@ function App() {
     if (event.key === 'Enter' && !isComposing) {
       setTodos([todo, ...todos]);
       setTodo('');
-      console.log(todos);
     }
   }
   return (
